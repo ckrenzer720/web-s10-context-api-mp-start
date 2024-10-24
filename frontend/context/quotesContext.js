@@ -2,6 +2,10 @@ import React, { createContext, useReducer } from "react";
 
 export const QuotesContext = createContext();
 
+const dummy = {
+  movie: 'Lord of the Rings: The Two Towers'
+}
+
 const CREATE_QUOTE = "CREATE_QUOTE";
 const DELETE_QUOTE = "DELETE_QUOTE";
 const EDIT_QUOTE_AUTHENTICITY = "EDIT_QUOTE_AUTHENTICITY";
